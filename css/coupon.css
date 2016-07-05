@@ -1,0 +1,92 @@
+
+input[type=text], input[type=button]{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+.myfont{
+  font-family:Calibri;
+  font-size:24px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+#coupon-title{
+  box-sizing: border-box;
+  width: 360px;
+  margin: 0 auto;
+  padding: 6px;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #c82127;
+}
+#coupon{
+  box-sizing: border-box;
+  width: 360px;
+  /*height: 380px;*/
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 6px;
+}
+#coupon p{
+  margin: 0px 0px 6px 0px;
+}
+#coupon input{
+  height: 22px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: none;
+  outline: none;
+  padding: 2px;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#coupon p label{
+  display: inline-block;
+}
+#coupon p.name label,
+#coupon p.phone label{
+  display: inline-block;
+  width: 154px;
+}
+#coupon p.name input,
+#coupon p.phone input{
+  width: 186px;
+}
+#coupon p.presence .main-label{
+  width: 130px;
+}
+#coupon p.presence label{
+  width: auto;
+}
+#coupon p.presence input{
+  width: 24px;
+  height: 24px;
+  margin-left: 14px;
+}
+#coupon p.morning{
+  margin-top: 24px;
+}
+
+#coupon-submit{
+  box-sizing: border-box;
+  width: 360px;
+  margin: 0 auto;
+  text-align: right;
+  padding: 6px;
+}
+#coupon-submit input{
+  background-color: #c82127;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 24px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+#coupon-submit input:hover{
+  background-color: #000;
+}
